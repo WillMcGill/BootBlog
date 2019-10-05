@@ -1,153 +1,506 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Willionaire's Blog</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+<head>
+  <title>Willionaire's Blog</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Will McGill's Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    <div class = "mx-auto">
-      
-      <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
-        <div class="card-header">Pre-work - Week 1</div>
-        <div class="card-body">
-         <!-- // <h4 class="card-title">Week 1 (Prework) </h4> -->
-          <div class="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Was your first week what you expected? Why? Why not?
-                  </button>
-                </h2>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                    My first week was more than I expected. Having worked with git during the intro class, I felt like I would be able to breeze through. I learned way more than I expected especially how it is used within GitHub for collaboration. The HTML and CSS are about what I expected.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    What are you struggling with?
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                    <p> Honestly, right now it is time. I have 2 weeks of work and the prework was a little more time consuming
-                        than I initially expected. I just need to power through and wait until I can commit all my time to
-                        bootcamp.</p>
-        
-                    <p>At the time of this writing I am working through a challenge in CSS with the card exercise.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    What are you excited or eager to learn more about?
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    <p class="answer">I am very excited about Javascript and SQL as I have seen what these languages can do
-                        first hand at my current place of employment.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-      </div>
 
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Will McGill's Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Collapsible Group Item #1
-              </button>
-            </h2>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/WillMcGill"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/will-mcgill-759596125/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.hackerrank.com/mcgill_will"><i class="fab fa-hackerrank"></i></a>
+        </li>
+      </ul>
 
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  </nav>
+  <div class="mx-auto">
+
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Pre-work - Week 1</div>
+      <div class="card-body">
+        <!-- // <h4 class="card-title">Week 1 (Prework) </h4> -->
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Was your first week what you expected? Why? Why not?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                My first week was more than I expected. Having worked with git during the intro class, I felt like I
+                would be able to breeze through. I learned way more than I expected especially how it is used within
+                GitHub for collaboration. The HTML and CSS are about what I expected.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  What are you struggling with?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p> Honestly, right now it is time. I have 2 weeks of work and the prework was a little more time
+                  consuming
+                  than I initially expected. I just need to power through and wait until I can commit all my time to
+                  bootcamp.</p>
+
+                <p>At the time of this writing I am working through a challenge in CSS with the card exercise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  What are you excited or eager to learn more about?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p class="answer">I am very excited about Javascript and SQL as I have seen what these languages can do
+                  first hand at my current place of employment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Pre-work - Week 2</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
+                  aria-expanded="true" aria-controls="collapseFour">
+                  What are your thoughts on Pseudo Coding?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>At first it felt very tedious. However, in conjunction with my "struggle" below, I began to
+                  understand
+                  it's relevance. Without the proper planning by pseudo coding and/or diagramming you will probably
+                  waste
+                  hours down the line filling in the blanks you would have caught in the planning phase.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                  aria-expanded="false" aria-controls="collapseFive">
+                  What are you struggling with?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>I wouldn't call it a struggle, but I feel like there is always more information to add. There are
+                  many
+                  small steps that I feel like I leave out.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                  aria-expanded="false" aria-controls="collapseSix">
+                  What are you excited or eager to learn more about?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Javascript next week!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Pre-work - Week 3</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                  aria-expanded="true" aria-controls="collapseSeven">
+                  What are your thoughts about the roles HTML, CSS, and Javascript play in the process of rendering
+                content and providing user experience?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseSeven" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>For me the easiest way to wrap my head around each of these, is by thinking of the tech stack as a house.
+                </p>
+                <p>The HTML is the frame. It's what holds everything together but the information it contains doesn't look
+                    very pretty.</p>
+                <p>The CSS is the coat of paint and the aesthetic section of the stack. It takes the information within the
+                    HTML and styles it in such a way as to increase the user experience.</p>
+                <p>Finally, Javascript. The plumbing and wiring of the house. It is the moving parts that actually allow a
+                    webpage, or app, to function and perform tasks. Otherwise, we would be stuck with static information.
+                </p>
+    
+               
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Pre-work - Week 4</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEight"
+                  aria-expanded="true" aria-controls="collapseEight">
+                  What was one thing you liked and disliked about each of the new topics covered in Prework?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseEight" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                I liked all the topics covered in prework. Honestly, I was surprised that we have covered as much as we
+                have. Javascript is a frustrating beast, but I am surprised that I have learned as much as I have
+                remotely. I would say git could be a possible dislike, but relating to the collaboratory (is that a
+                word?) functions of GitHub makes the whole process make more sense.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
+                  aria-expanded="false" aria-controls="collapseNine">
+                  What was helpful?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Looking at other people's issues on Slack. So basically, my fellow bootcampers. </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen"
+                  aria-expanded="false" aria-controls="collapseTen">
+                  What hindered your progress?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>It's an excuse that I'll no longer be able to use. My final week at work. I wish that I could have had a
+                  couple days in person at Awesome Inc.</p>
+              <p>Scope. Placement of functions and the declaration of variables. This is not my strongest suit and
+                  something I need to study on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven"
+                  aria-expanded="false" aria-controls="collapseEleven">
+                  How did you overcome challenges?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseEleven" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Google. LOL.</p>
+            <p>Something that has hindered me before the class while doing research on my own has been researching and
+                just copy and pasting. This time around I have made a conscious effort to not do so. Instead, reading
+                the documentation and applying the code so that I understand what I am doing, not just doing something
+                to make it work.</p>
+            <p>But...I also think this makes my code "long winded" (if that's a thing). I'd like to work on making it
+                more succinct.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+    
+
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Week 1</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwelve"
+                  aria-expanded="true" aria-controls="collapseTwelve">
+                  What did you learn about that helped you understand more about Design?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseTwelve" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>The campaign website project was all about design. Making a project visually appealing, but equally
+                  important, technical functionality. Mobile first. While I do most of my web browsing on my cellphone, it
+                  was not my first thought to design my site for mobile first. Using Bootstrap was frustrating at first,
+                  and still is in some aspects. However, little by little, as I figure out to how to make certain tweaks
+                  it is obvious why the framework as a whole is a timesaver and a great way to make websites for every
+                  device.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen"
+                  aria-expanded="false" aria-controls="collapseThirteen">
+                  What do you want to continue learning about that helps you understand Design better?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThirteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>I love technical things. But design is not my strongest attribute. Any principles that are common among
+                  physical and digital designs would be helpful. Something I can actively improve upon on are the CRAP
+                  principles presented by Jaqueline.</p>
+              <p>Contrast</p>
+              <p>Repetition</p>
+              <p>Alignment</p>
+              <p>Proximity</p>
+              </br>
+              <p>And a personal one.  Use of a wider range of colors.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen"
+                  aria-expanded="false" aria-controls="collapseFourteen">
+                  What Design aspects are important to you as a user and as a developer?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFourteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>As a User - If I have to spend more than a couple minutes searching a website for specific information.  I leave.  The shorter answer is the UI.  Is it intuitive and easy to use.  I'm probably using my phone and does the site resemble a usable app.</p>
+            <p>As a developer - Same as above.  But making sure the information provided is correct.  Creating the site in a way that is scalable with constant change.  Can the client make easy changes? It would be important to use a framework that is widely accepted.  It does no good if the information is correct, but many users cannot access it in a digestible format.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+    
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Week 2</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFifteen"
+                  aria-expanded="true" aria-controls="collapseFifteen">
+                  What did you learn about that helped you understand the Development process?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseFifteen" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>My grandfather always liked to talk about the 6 P's.  Proper Prior Planning Prevents Poor Performance.</p>
+                <p>In this case, although it doesn't have the same ring to it.  Proper Prior Pseudo-coding Prevents Poor Performance.</p>
+                <p>The importance of having a plan before you start to build your projects is one of my biggest takeaways from my Javascript projects.
+                  Not only would I have been able to write better code, I probably could have shaved hours off the development process by simply spending
+                  more time planning.  Preparing what you are going to code is just as important as coding itself.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen"
+                  aria-expanded="false" aria-controls="collapseSixteen">
+                  What does it mean to develop good code?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSixteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Good code should be well planned.  It should be dry and readable by other developers who have no background on the project.</p>
+                <p>The code should be written in a way that is efficient regarding the CPU's processing power. Anything being repeated should be condensed into functions.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen"
+                  aria-expanded="false" aria-controls="collapseSeventeen">
+                  What does it mean to be a good Developer?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSeventeen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>An easy one is writing good code.</p>
+                <p>But also being able to listen and understand what the needs are for the project.  Proper planning and using other developers as sounding boards
+                  for ideas.  Don't go at it alone.  I think that something that will help me is consistently asking my peers, "What do you think?".
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+    <div class="card text-white bg-info mb-3 mt-3 mx-auto" style="max-width: 75vw;">
+      <div class="card-header">Week 3</div>
+      <div class="card-body">
+        
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEighteen"
+                  aria-expanded="true" aria-controls="collapseEighteen">
+                  Why do you see Javascript useful or hard to use?
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseEighteen" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>I see Javascript as a powerful tool, but I think what makes it hard to use is that manipulating every moving part is very time consuming and tedious.
+                  Much like Bootstrap with HTML, I think that starting out it is hard to really see it's potential without using a framework.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen"
+                  aria-expanded="false" aria-controls="collapseNineteen">
+                  What aspects about Javascript are you interested in learning more about?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseNineteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>I am very interested in learning more about APIs.  I think understanding and hopefully being able build one some day would be a valuable skill to have.</p>
+                <p>There is a lot of potential with being able to build apps that access outside databases.  Not only being able to read them, but also write.
+                  Coming from digital advertising, there are applications of these which could be very useful for simplifying overly complicated processes.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-- Blog Break -->
+
+          <div class="accordion" id="accordionExample">
+          </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+          <script src="https://kit.fontawesome.com/b91ccee6c2.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
